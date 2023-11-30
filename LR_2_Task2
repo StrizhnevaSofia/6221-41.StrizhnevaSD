@@ -1,0 +1,9 @@
+for cifra in range(1, 101):
+    if cifra % 3 == 0 and cifra % 5 == 0:
+        print(str(cifra) + "-Fizz-Buzz")
+    elif cifra % 3 == 0:
+        print(str(cifra) + "-Fizz")
+    elif cifra % 5 == 0:
+        print(str(cifra) + "-Buzz")
+    else:
+        print(cifra)
